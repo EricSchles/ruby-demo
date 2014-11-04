@@ -24,6 +24,25 @@ puts explanation_part_three
 puts explanation_part_three.sub("manipulate","change")
 puts explanation_part_three.sub("manipulate","change them to whatever we want")
 puts explanation_part_three.sub("manipulate","chain manipulations").sub("them","")
-puts explanation_part_three[62,40].sub("manipulate","change their size").sub("them.","").capitalize+"."
-puts explanation_part_three[62..64].capitalize+"can even exclude the ends of a string by using '..' instead of ','."
-puts 
+puts explanation_part_three[62,29].sub("manipulate","change their size").sub("them.","").capitalize+"."
+puts explanation_part_three[62..64].capitalize+"can even do this by range!"
+
+puts "Now onto numbers!!"
+
+puts "We can do a whole host of mathematical operations to numbers:"
+puts
+
+x = 0
+puts "x = 0, result: "+x.to_s
+x = x + 1
+puts "x = x + 1, result: "+x.to_s
+x = x * 4
+puts "x = x * 4, result: "+x.to_s
+x = x + 17
+puts "x = x + 17, result: "+x.to_s
+x = x / 3
+puts "x = x / 3, result: "+x.to_s
+x = x % 4
+puts "x = x % 4, result: "+x.to_s
+x = x ** 15
+puts "x = x ** 15, result: "+x.to_s
