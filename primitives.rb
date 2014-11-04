@@ -23,6 +23,6 @@ explanation_part_three = """In addition to being able to print strings out to th
 puts explanation_part_three
 puts explanation_part_three.sub("manipulate","change")
 puts explanation_part_three.sub("manipulate","change them to whatever we want")
-
+puts explanation_part_three.sub("manipulate","chain manipulations").sub("them","")
 
 #puts "Now onto some powerful stuff. key"
