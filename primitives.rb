@@ -18,6 +18,11 @@ the right hand side is just the primitive itself."""
 
 puts explanation_part_two
 
-explanation_part_three = """In addition to being able to print strings out to the screen, we can also manipulate them
+explanation_part_three = """In addition to being able to print strings out to the screen, we can also manipulate them."""
+
+puts explanation_part_three
+puts explanation_part_three.sub("manipulate","change")
+puts explanation_part_three.sub("manipulate","change them to whatever we want")
+
 
 #puts "Now onto some powerful stuff. key"
