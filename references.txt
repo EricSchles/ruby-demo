@@ -1,0 +1,9 @@
+rails installation tutorials:
+
+https://gorails.com/setup/osx/10.10-yosemite
+https://gorails.com/setup/ubuntu/14.10
+
+installing nodejs: 
+
+sudo apt-get install nodejs
+sudo ln -s /usr/bin/nodejs /usr/bin/node

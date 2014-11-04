@@ -1,0 +1,7 @@
+In https://github.com/Syncano/syncano-ruby
+
+line 25 of readme.md does not work and is unclear. Tested on ubuntu 14.04 virtual machine running under vmware - 11/1/2014
+
+How do you import syncano into ruby? - this is missing from readme.md - It's a trivial step, but code should be exactly what someone needs to enter in order to get code to work.  They should never feel frustrated.
+
+rails g syncano:install - it's unclear that you would need the mongoid gem.  This should be stated explicitly
