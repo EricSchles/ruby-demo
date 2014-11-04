@@ -10,5 +10,9 @@ sudo ln -s /usr/bin/nodejs /usr/bin/node
 
 tutorials:
 
+General tutorials:
 http://rubymonk.com/learning/books/1
 http://rubymonk.com/learning/books/2
+
+String methods:
+http://www.ruby-doc.org/core-1.9.3/String.html
