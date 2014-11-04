@@ -46,3 +46,18 @@ x = x % 4
 puts "x = x % 4, result: "+x.to_s
 x = x ** 15
 puts "x = x ** 15, result: "+x.to_s
+
+explanation_part_four = """
+The best thing about computer science languages, is that the truly allow you to do anything.  No set of primitive operations would be complete
+without the ability to automate logic.  Using ruby we can test the truth value of any declarative statement.  For instance, is 5 < 4? Is 7 > 54?
+Nothing is out of our reach, even: is 'a' < 'r', is a valid statement in ruby!!!  So what is the result of such statements?  They are something
+called boolean's, named after the father of modern logic, George Boole.  Boolean values can be one of only two, true or false.
+Using boolean logic we reduce the world from a complex, nuanced world into something as black and white as possible.  Into a world of cold
+logic.  Which makes programming really really easy!  But may create code that doesn't accurately reflect reality.  Let's begin by looking at the results of the questions we already asked.
+"""
+puts explanation_part_four
+puts
+puts "5 < 4, result: "+(5 < 4).to_s
+puts "7 > 54, result: "+(7 > 54).to_s
+puts "'a' < 'r', result: "+('a' < 'r').to_s
+
