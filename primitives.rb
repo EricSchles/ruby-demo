@@ -24,9 +24,6 @@ puts explanation_part_three
 puts explanation_part_three.sub("manipulate","change")
 puts explanation_part_three.sub("manipulate","change them to whatever we want")
 puts explanation_part_three.sub("manipulate","chain manipulations").sub("them","")
-puts explanation_part_three[62,explanation_part_three.size].sub("manipulate","change their size").sub("them.","").capitalize+"."
+puts explanation_part_three[62,40].sub("manipulate","change their size").sub("them.","").capitalize+"."
 puts explanation_part_three[62..64].capitalize+"can even exclude the ends of a string by using '..' instead of ','."
-puts "As a point of comparison: "+explanation_part_three[62..67]+" or "+explanation_part_three[62,5] #shoudl be explanation_part_three[62,67]
 puts 
-puts explanation_part_three[0,4]
-#puts "Now onto some powerful stuff. key"
