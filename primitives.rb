@@ -24,5 +24,7 @@ puts explanation_part_three
 puts explanation_part_three.sub("manipulate","change")
 puts explanation_part_three.sub("manipulate","change them to whatever we want")
 puts explanation_part_three.sub("manipulate","chain manipulations").sub("them","")
+puts explanation_part_three[62,explanation_part_three.size].sub("manipulate","change their size").sub("them.","")
+
 
 #puts "Now onto some powerful stuff. key"
